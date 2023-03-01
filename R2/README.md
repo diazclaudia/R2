@@ -21,6 +21,8 @@ In this diagram we can see the flow of the logic since user to the algorithm.
 * postman curls:
 
 #### Login
+User: admin
+Pass: admin
 ```
 curl --location --request POST 'http://localhost:4000/login' \
 --header 'user: admin' \
