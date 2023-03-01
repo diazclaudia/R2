@@ -43,3 +43,7 @@ curl --location --request POST 'http://localhost:4000/logout' \
 curl --location --request POST 'http://localhost:4000/spiral?rows=2&cols=2' \
 --header 'Cookie: mysession=MTY3NzU1MDUyM3xEdi1CQkFFQ180SUFBUkFCRUFBQUlfLUNBQUVHYzNSeWFXNW5EQVlBQkhWelpYSUdjM1J5YVc1bkRBY0FCV0ZrYldsdXyigBpbxjmFkIbCp2u-aOJIDm1aVCY_Oh6_8o53v0-3fg=='
 ```
+
+#### Expose this service
+
+I would use aws lambdas, because this service culd have dead times and this option is good in this case when I dont know how many people will use it. https://docs.aws.amazon.com/es_es/lambda/latest/dg/getting-started.html
