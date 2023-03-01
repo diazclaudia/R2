@@ -32,10 +32,8 @@ curl --location --request POST 'http://localhost:4000/login' \
 
 #### Logout
 ```
-curl --location --request POST 'http://localhost:4000/logout' \
---header 'user: admin' \
---header 'pass: admin' \
---header 'Cookie: mysession=MTY3NzU1MDUyM3xEdi1CQkFFQ180SUFBUkFCRUFBQUlfLUNBQUVHYzNSeWFXNW5EQVlBQkhWelpYSUdjM1J5YVc1bkRBY0FCV0ZrYldsdXyigBpbxjmFkIbCp2u-aOJIDm1aVCY_Oh6_8o53v0-3fg=='
+curl --location --request GET 'http://localhost:4000/logout' \
+--header 'Cookie: mysession=MTY3NzY4NDE5NnxEdi1CQkFFQ180SUFBUkFCRUFBQUJQLUNBQUE9fA3_FlYIVY81x048tM4lBqmGYCCNRG_CdefU5ZySeh2f'
 ```
 
 #### Fibonacci
